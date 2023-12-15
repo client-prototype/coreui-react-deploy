@@ -1,0 +1,27 @@
+// If you want to override variables do it here
+@import "variables";
+
+// Import styles
+@import "@coreui/coreui-pro/scss/coreui";
+
+// Import Chart.js custom tooltips styles
+@import "@coreui/chartjs/scss/coreui-chartjs";
+
+// If you want to add custom CSS you can put it here.
+@import "_root";
+
+@import "layout";
+
+// Plugins
+@import "calendar";
+
+// Preview
+@import "examples";
+
+// If you want to add custom CSS you can put it here.
+@import "custom";
+
+// If you want to add custom CSS you can put it here.
+@import "_bg-gradients";
+
+
